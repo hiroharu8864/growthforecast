@@ -35,7 +35,6 @@ TODO: Write usage instructions for each cookbook.
     "recipe[growthforecast::supervisor]"
   ]
 }
-}
 ```
 
 License and Authors
