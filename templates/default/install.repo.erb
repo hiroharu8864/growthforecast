@@ -1,0 +1,15 @@
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/<%= node['nginx']['OS'] %>/<%= node['nginx']['OSRELEASE'] %>/$basearch/
+gpgcheck=0
+enabled=1
+[td-agent]
+name=td-agent repo
+baseurl=http://packages.treasure-data.com/redhat/$basearch/
+gpgcheck=0
+enabled=1
+[epel]
+name=Extra Packages for Enterprise Linux
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-6&arch=$basearch
+gpgcheck=0
+enabled=1
