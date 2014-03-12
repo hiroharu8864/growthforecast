@@ -1,6 +1,11 @@
 growthforecast Cookbook
 ==============
-Recipe for install growthforecast to CentOS
+Recipe for install growthforecast to CentOS  
+Vagrant環境のCentOSへnginxをインストールし、growthforecastによるアクセス解析を行う。
+
+PreRequirement
+-----
+$ vagrant box add base64 CentOS-6.3-x86_64-v20130101.box
 
 Usage
 -----
